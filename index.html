@@ -75,6 +75,7 @@
             color: white;
             font-family: 'Outfit', sans-serif;
           "
+          class="best-seller"
         >
           Best Seller
         </div>
@@ -87,11 +88,17 @@
           <span style="font-weight: 700; font-size: 20px; margin-left: 10px"
             >4.9</span
           >
-          <span style="color: #3f474b; font-size: 16px">(1,021 reviews)</span>
+          <span style="color: #3f474b; font-size: 0.8rem">(1,021 reviews)</span>
         </div>
         <h1 class="helio-title">Helio Pet Device ™</h1>
         <div class="feedback">
-          <img src="assets/picture1.png" alt="" class="profile-image" />
+          <div style="display: flex; align-items: center; gap: 8px">
+            <img src="assets/picture1.png" alt="" class="profile-image" />
+            <div>
+              <h3>Linda S.</h3>
+              <p>1 year ago</p>
+            </div>
+          </div>
           <p>
             “We are BOTH so THANKFUL! I purchased this for my 12 year old Lab
             mix as he's got mobility issues with the back legs. It's been 3
@@ -115,18 +122,30 @@
           </p>
         </div>
 
-        <div>
-          <span style="font-size: 28px; color: #000000; margin-right: 8px"
+        <div class="price-container">
+          <span
+            style="font-size: 28px; color: #000000; margin-right: 8px"
+            class="price-1"
             >$369.00</span
           >
-          <span style="font-size: 38px; color: #cf1010; font-weight: 500"
+          <span
+            style="font-size: 38px; color: #cf1010; font-weight: 500"
+            class="price-2"
             >$249.00</span
           >
+          <div class="add-minus-btn-conatiner">
+            <button class="plus-btn">-</button>
+            <span class="count">1</span>
+            <button class="minus-btn">+</button>
+          </div>
         </div>
-        <div>
+        <div class="add-to-cart-items">
           <button class="add-to-cart-btn">Add to Cart</button>
-          <button class="plus-btn">-</button> <span class="count">1</span>
-          <button class="minus-btn">+</button>
+          <div class="add-minus-btn-conatiner-2">
+            <button class="plus-btn">-</button>
+            <span class="count">1</span>
+            <button class="minus-btn">+</button>
+          </div>
         </div>
         <div>
           <img src="assets/paymentmethod.png" alt="" class="payment-method" />
@@ -154,50 +173,52 @@
     </section>
 
     <section class="section-three">
-      <div>
-        <h1 style="color: #ffffff; font-size: 60px; font-weight: 700">
-          Professional Grade, <br />
-          <span style="font-weight: 500">Patented Design.</span>
-        </h1>
-        <p style="color: #ffffff">
-          It’s required to have a strong enough output power of 3-10 Joules per
-          cm2 with correct wavelengths (660nm + 850nm).
-        </p>
-        <div>
+     
+        <div class="professional-text-container">
+          <h1 style="color: #ffffff; font-size: 50px; font-weight: 700; ">
+            Professional Grade, <br />
+            <span style="font-weight: 500">Patented Design.</span>
+          </h1>
           <p style="color: #ffffff">
-            The treatment head is 340% bigger so it can finish a treatment in 3
-            minutes, vs 10-20 minutes.
+            It’s required to have a strong enough output power of 3-10 Joules
+            per cm2 with correct wavelengths (660nm + 850nm).
           </p>
+          <div>
+            <p style="color: #ffffff">
+              The treatment head is 340% bigger so it can finish a treatment in
+              3 minutes, vs 10-20 minutes.
+            </p>
+          </div>
+          <div>
+            <p style="color: #ffffff">
+              Has 3 Modes of Power to accommodate to any area. It also uses
+              wavelengths 660nm and 850nm.
+            </p>
+          </div>
+          <div
+            style="
+              background-color: #1db469;
+              border-radius: 30px;
+              padding: 10px;
+              color: #ffffff;
+              width: 200px;
+            "
+          >
+            800% More Power
+          </div>
+          <div
+            style="
+              background-color: #1db469;
+              border-radius: 30px;
+              padding: 10px;
+              color: #ffffff;
+              width: 200px;
+            "
+          >
+            3 Minutes
+          </div>
         </div>
-        <div>
-          <p style="color: #ffffff">
-            Has 3 Modes of Power to accommodate to any area. It also uses
-            wavelengths 660nm and 850nm.
-          </p>
-        </div>
-        <div
-          style="
-            background-color: #1db469;
-            border-radius: 30px;
-            padding: 10px;
-            color: #ffffff;
-            width: 200px;
-          "
-        >
-          800% More Power
-        </div>
-        <div
-          style="
-            background-color: #1db469;
-            border-radius: 30px;
-            padding: 10px;
-            color: #ffffff;
-            width: 200px;
-          "
-        >
-          3 Minutes
-        </div>
-      </div>
+     
     </section>
 
     <!-- verified review section  -->
